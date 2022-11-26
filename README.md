@@ -1,4 +1,4 @@
-# Enquire Al FinNews POrtal 
+# Enquire Al FinNews Portal 
 
                                                                         ## Requirements
 ## Docker 
