@@ -28,6 +28,7 @@ pip install
 ```
 
 ## Api
+Java version is 17.
 Build and run project.
 Default go to the link http://localhost/8080 
 
