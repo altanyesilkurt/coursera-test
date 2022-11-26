@@ -22,7 +22,7 @@ Create Table. Run the command in the "create_table_script.sql" file.
 
 install python 3.10.8 (https://www.python.org/downloads/)
 
-Run the command to install require libraries module in main.py class:
+Run the command to install required libraries module in main.py class:
 ```bash
 pip install
 ```
