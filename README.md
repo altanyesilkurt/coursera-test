@@ -22,9 +22,22 @@ Create Table. Run the command in the "create_table_script.sql" file.
 
 install python 3.10.8 (https://www.python.org/downloads/)
 
-Run the command to install required libraries module in main.py class:
+Run the command to install required libraries module in cron_job.py class:
 ```bash
 pip install
+```
+install crontab and Run the command: 
+```bash
+sudo apt-get install cron
+crontab -e
+```
+job will run in every 5 minutes. Add the following code on top and save:
+```bash
+*/5 * * * * python3 cron_job.py
+```
+run  the following commad
+```bash
+service cron start
 ```
 
 ## Api
